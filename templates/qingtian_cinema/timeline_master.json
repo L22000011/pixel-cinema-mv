@@ -1,0 +1,1711 @@
+{
+  "project": "qingtian_pixel_mv",
+  "title": "晴天",
+  "artist": "周杰伦",
+  "fps": 30,
+  "duration_sec": 60.0,
+  "total_frames": 1800,
+  "logical_16x9": {
+    "width": 480,
+    "height": 270,
+    "scale": 4,
+    "output_width": 1920,
+    "output_height": 1080
+  },
+  "logical_9x16": {
+    "width": 270,
+    "height": 480,
+    "scale": 4,
+    "output_width": 1080,
+    "output_height": 1920
+  },
+  "bpm": 133.93,
+  "beats_sec": [
+    0.0,
+    0.448,
+    0.864,
+    1.312,
+    1.728,
+    2.176,
+    2.592,
+    3.04,
+    3.488,
+    3.904,
+    4.352,
+    4.8,
+    5.248,
+    5.664,
+    6.112,
+    6.528,
+    6.976,
+    7.424,
+    7.872,
+    8.32,
+    8.736,
+    9.184,
+    9.6,
+    10.048,
+    10.496,
+    10.912,
+    11.36,
+    11.808,
+    12.224,
+    12.672,
+    13.12,
+    13.536,
+    13.984,
+    14.432,
+    14.88,
+    15.296,
+    15.744,
+    16.192,
+    16.608,
+    17.056,
+    17.504,
+    17.92,
+    18.368,
+    18.816,
+    19.264,
+    19.712,
+    20.128,
+    20.576,
+    21.024,
+    21.44,
+    21.888,
+    22.304,
+    22.752,
+    23.2,
+    23.616,
+    24.064,
+    24.512,
+    24.928,
+    25.376,
+    25.824,
+    26.272,
+    26.688,
+    27.136,
+    27.552,
+    27.968,
+    28.416,
+    28.864,
+    29.312,
+    29.76,
+    30.208,
+    30.656,
+    31.104,
+    31.52,
+    31.968,
+    32.384,
+    32.832,
+    33.28,
+    33.728,
+    34.144,
+    34.592,
+    35.04,
+    35.456,
+    35.872,
+    36.32,
+    36.768,
+    37.184,
+    37.632,
+    38.08,
+    38.528,
+    38.944,
+    39.392,
+    39.808,
+    40.256,
+    40.704,
+    41.12,
+    41.568,
+    42.016,
+    42.432,
+    42.88,
+    43.328,
+    43.744,
+    44.192,
+    44.64,
+    45.088,
+    45.504,
+    45.92,
+    46.368,
+    46.816,
+    47.264,
+    47.712,
+    48.128,
+    48.576,
+    49.024,
+    49.44,
+    49.888,
+    50.304,
+    50.752,
+    51.2,
+    51.648,
+    52.096,
+    52.544,
+    52.96,
+    53.408,
+    53.824,
+    54.272,
+    54.72,
+    55.168,
+    55.584,
+    56.032,
+    56.448,
+    56.896,
+    57.344,
+    57.792,
+    58.208,
+    58.656,
+    59.104,
+    59.552,
+    59.968
+  ],
+  "scenes_catalog": [
+    "campus_path",
+    "rainy_camphor_road",
+    "classroom_window",
+    "playground_overpass_sunset",
+    "streetlamp_rain_corner"
+  ],
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start": 0.0,
+      "end": 3.4,
+      "scene": "campus_path",
+      "shot_scale": "medium_wide",
+      "mood": "clear_breeze",
+      "narrative": "微风吹过樱木校园林荫路，少年与少女并肩走来，树叶沙沙作响",
+      "camera": {
+        "pan_x_start": -16,
+        "pan_x_end": 4,
+        "pan_y_start": 0,
+        "pan_y_end": -2,
+        "sprite_scale": 1.0
+      },
+      "environment": {
+        "wind": 0.65,
+        "rain": 0.0,
+        "sunbeams": 0.85,
+        "leaves": 0.7,
+        "curtain": 0.0,
+        "lamp": 0.0,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.34,
+        "y_start": 0.82,
+        "x_end": 0.42,
+        "y_end": 0.82,
+        "facing": "right",
+        "pose": "walk",
+        "expression": "neutral_gentle",
+        "prop": "bag",
+        "hand_target": "swing"
+      },
+      "girl": {
+        "x_start": 0.56,
+        "y_start": 0.82,
+        "x_end": 0.54,
+        "y_end": 0.82,
+        "facing": "right",
+        "pose": "walk",
+        "expression": "soft_smile",
+        "prop": "folded_umbrella",
+        "hand_target": "hold_umbrella"
+      },
+      "start_frame": 0,
+      "end_frame": 102,
+      "duration_sec": 3.4,
+      "lyric_lines": [
+        "刮风这天",
+        "我试过握着你手"
+      ]
+    },
+    {
+      "shot_id": "S02",
+      "start": 3.4,
+      "end": 6.8,
+      "scene": "campus_path",
+      "shot_scale": "medium_closeup",
+      "mood": "clear_breeze",
+      "narrative": "“我试过握着你手”——两人脚步放慢，少年鼓起勇气悄悄伸手轻碰少女指尖，彼此相视一笑",
+      "camera": {
+        "pan_x_start": 4,
+        "pan_x_end": 18,
+        "pan_y_start": -8,
+        "pan_y_end": -10,
+        "sprite_scale": 1.55
+      },
+      "environment": {
+        "wind": 0.85,
+        "rain": 0.0,
+        "sunbeams": 0.9,
+        "leaves": 0.85,
+        "curtain": 0.0,
+        "lamp": 0.0,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.41,
+        "y_start": 0.85,
+        "x_end": 0.44,
+        "y_end": 0.85,
+        "facing": "right",
+        "pose": "reach_hand_walk",
+        "expression": "warm_smile",
+        "prop": "bag",
+        "hand_target": "reach_right"
+      },
+      "girl": {
+        "x_start": 0.57,
+        "y_start": 0.85,
+        "x_end": 0.56,
+        "y_end": 0.85,
+        "facing": "left",
+        "pose": "glance_shy_walk",
+        "expression": "blush_smile",
+        "prop": "folded_umbrella",
+        "hand_target": "accept_left"
+      },
+      "start_frame": 102,
+      "end_frame": 204,
+      "duration_sec": 3.4,
+      "lyric_lines": [
+        "我试过握着你手",
+        "但偏偏 雨渐渐"
+      ]
+    },
+    {
+      "shot_id": "S03",
+      "start": 6.8,
+      "end": 10.6,
+      "scene": "rainy_camphor_road",
+      "shot_scale": "medium",
+      "mood": "sudden_rain",
+      "narrative": "“但偏偏 雨渐渐”——天色骤暗、雨丝斜落，水洼荡起涟漪，少女停步撑起浅白长柄伞",
+      "camera": {
+        "pan_x_start": -12,
+        "pan_x_end": 8,
+        "pan_y_start": 0,
+        "pan_y_end": 0,
+        "sprite_scale": 1.15
+      },
+      "environment": {
+        "wind": 0.7,
+        "rain": 0.62,
+        "sunbeams": 0.0,
+        "leaves": 0.35,
+        "curtain": 0.0,
+        "lamp": 0.1,
+        "puddles": 0.7
+      },
+      "boy": {
+        "x_start": 0.38,
+        "y_start": 0.84,
+        "x_end": 0.33,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "shield_rain",
+        "expression": "surprised_worry",
+        "prop": "bag",
+        "hand_target": "shield_brow"
+      },
+      "girl": {
+        "x_start": 0.55,
+        "y_start": 0.84,
+        "x_end": 0.62,
+        "y_end": 0.84,
+        "facing": "left",
+        "pose": "open_umbrella",
+        "expression": "wistful",
+        "prop": "open_umbrella",
+        "hand_target": "hold_open_umbrella"
+      },
+      "start_frame": 204,
+      "end_frame": 318,
+      "duration_sec": 3.8,
+      "lyric_lines": [
+        "但偏偏 雨渐渐",
+        "大到我看你不见"
+      ]
+    },
+    {
+      "shot_id": "S04",
+      "start": 10.6,
+      "end": 14.3,
+      "scene": "rainy_camphor_road",
+      "shot_scale": "medium_wide",
+      "mood": "heavy_rain",
+      "narrative": "“大到我看你不见”——暴雨如注，两人隔着雨幕与雾气背向拉开距离",
+      "camera": {
+        "pan_x_start": 8,
+        "pan_x_end": 26,
+        "pan_y_start": 0,
+        "pan_y_end": 2,
+        "sprite_scale": 1.0
+      },
+      "environment": {
+        "wind": 0.8,
+        "rain": 1.0,
+        "sunbeams": 0.0,
+        "leaves": 0.2,
+        "curtain": 0.0,
+        "lamp": 0.25,
+        "puddles": 1.0
+      },
+      "boy": {
+        "x_start": 0.35,
+        "y_start": 0.83,
+        "x_end": 0.2,
+        "y_end": 0.83,
+        "facing": "right",
+        "pose": "stand_rain_look",
+        "expression": "sad",
+        "prop": "bag",
+        "hand_target": "idle"
+      },
+      "girl": {
+        "x_start": 0.6,
+        "y_start": 0.83,
+        "x_end": 0.78,
+        "y_end": 0.83,
+        "facing": "right",
+        "pose": "umbrella_walk",
+        "expression": "look_down",
+        "prop": "open_umbrella",
+        "hand_target": "hold_open_umbrella"
+      },
+      "start_frame": 318,
+      "end_frame": 429,
+      "duration_sec": 3.7,
+      "lyric_lines": [
+        "大到我看你不见"
+      ]
+    },
+    {
+      "shot_id": "S05",
+      "start": 14.3,
+      "end": 17.6,
+      "scene": "classroom_window",
+      "shot_scale": "medium_closeup",
+      "mood": "rain_window_wait",
+      "narrative": "“还要多久”——雨后教室窗边，少女坐在木课桌前单手托腮望向窗外滑落的雨滴",
+      "camera": {
+        "pan_x_start": -4,
+        "pan_x_end": 8,
+        "pan_y_start": -6,
+        "pan_y_end": -10,
+        "sprite_scale": 1.5
+      },
+      "environment": {
+        "wind": 0.35,
+        "rain": 0.45,
+        "sunbeams": 0.15,
+        "leaves": 0.1,
+        "curtain": 0.65,
+        "lamp": 0.0,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.15,
+        "y_start": 0.82,
+        "x_end": 0.15,
+        "y_end": 0.82,
+        "facing": "right",
+        "pose": "hidden",
+        "expression": "neutral_gentle",
+        "prop": "none",
+        "hand_target": "none",
+        "visible": false
+      },
+      "girl": {
+        "x_start": 0.56,
+        "y_start": 0.88,
+        "x_end": 0.56,
+        "y_end": 0.88,
+        "facing": "left",
+        "pose": "sit_desk_gaze",
+        "expression": "wistful",
+        "prop": "folded_umbrella",
+        "hand_target": "chin_rest"
+      },
+      "start_frame": 429,
+      "end_frame": 528,
+      "duration_sec": 3.3,
+      "lyric_lines": [
+        "还要多久",
+        "我才能在你身边"
+      ]
+    },
+    {
+      "shot_id": "S06",
+      "start": 17.6,
+      "end": 21.6,
+      "scene": "classroom_window",
+      "shot_scale": "medium",
+      "mood": "clearing_window",
+      "narrative": "“我才能在你身边”——雨丝渐疏，白纱窗帘随微风轻拂，少年的身影在窗外走廊经过却又错身",
+      "camera": {
+        "pan_x_start": 8,
+        "pan_x_end": -6,
+        "pan_y_start": -4,
+        "pan_y_end": 0,
+        "sprite_scale": 1.18
+      },
+      "environment": {
+        "wind": 0.5,
+        "rain": 0.18,
+        "sunbeams": 0.45,
+        "leaves": 0.25,
+        "curtain": 0.85,
+        "lamp": 0.0,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.22,
+        "y_start": 0.72,
+        "x_end": 0.4,
+        "y_end": 0.72,
+        "facing": "right",
+        "pose": "walk_corridor_behind_glass",
+        "expression": "look_down",
+        "prop": "bag",
+        "hand_target": "pocket",
+        "outside_window": true
+      },
+      "girl": {
+        "x_start": 0.6,
+        "y_start": 0.87,
+        "x_end": 0.63,
+        "y_end": 0.87,
+        "facing": "left",
+        "pose": "stand_turn_window",
+        "expression": "soft_surprise",
+        "prop": "none",
+        "hand_target": "touch_window"
+      },
+      "start_frame": 528,
+      "end_frame": 648,
+      "duration_sec": 4.0,
+      "lyric_lines": [
+        "我才能在你身边",
+        "等到放晴的那天"
+      ]
+    },
+    {
+      "shot_id": "S07",
+      "start": 21.6,
+      "end": 25.2,
+      "scene": "campus_path",
+      "shot_scale": "medium",
+      "mood": "after_rain_sunbeam",
+      "narrative": "“等到放晴的那天”——云散天青、丁达尔光柱穿透树冠，两人再次抬头看见澄澈晴空",
+      "camera": {
+        "pan_x_start": -10,
+        "pan_x_end": 12,
+        "pan_y_start": 2,
+        "pan_y_end": -6,
+        "sprite_scale": 1.15
+      },
+      "environment": {
+        "wind": 0.55,
+        "rain": 0.0,
+        "sunbeams": 1.0,
+        "leaves": 0.6,
+        "curtain": 0.0,
+        "lamp": 0.0,
+        "puddles": 0.25
+      },
+      "boy": {
+        "x_start": 0.36,
+        "y_start": 0.83,
+        "x_end": 0.44,
+        "y_end": 0.83,
+        "facing": "right",
+        "pose": "look_up_walk",
+        "expression": "hopeful_smile",
+        "prop": "bag",
+        "hand_target": "swing"
+      },
+      "girl": {
+        "x_start": 0.62,
+        "y_start": 0.83,
+        "x_end": 0.58,
+        "y_end": 0.83,
+        "facing": "left",
+        "pose": "look_up_sky",
+        "expression": "warm_smile",
+        "prop": "folded_umbrella",
+        "hand_target": "hold_umbrella"
+      },
+      "start_frame": 648,
+      "end_frame": 756,
+      "duration_sec": 3.6,
+      "lyric_lines": [
+        "等到放晴的那天",
+        "也许我会比较好一点"
+      ]
+    },
+    {
+      "shot_id": "S08",
+      "start": 25.2,
+      "end": 29.2,
+      "scene": "campus_path",
+      "shot_scale": "closeup",
+      "mood": "after_rain_sunbeam",
+      "narrative": "“也许我会比较好一点”——近景捕捉少年眼底释然却微涩的笑意与飘动发丝",
+      "camera": {
+        "pan_x_start": 12,
+        "pan_x_end": 18,
+        "pan_y_start": -14,
+        "pan_y_end": -16,
+        "sprite_scale": 1.78
+      },
+      "environment": {
+        "wind": 0.65,
+        "rain": 0.0,
+        "sunbeams": 0.95,
+        "leaves": 0.75,
+        "curtain": 0.0,
+        "lamp": 0.0,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.38,
+        "y_start": 0.88,
+        "x_end": 0.4,
+        "y_end": 0.88,
+        "facing": "right",
+        "pose": "idle_breathe_smile",
+        "expression": "bittersweet_smile",
+        "prop": "bag",
+        "hand_target": "idle"
+      },
+      "girl": {
+        "x_start": 0.64,
+        "y_start": 0.88,
+        "x_end": 0.62,
+        "y_end": 0.88,
+        "facing": "left",
+        "pose": "idle_breathe_blink",
+        "expression": "soft_smile",
+        "prop": "folded_umbrella",
+        "hand_target": "hold_umbrella"
+      },
+      "start_frame": 756,
+      "end_frame": 876,
+      "duration_sec": 4.0,
+      "lyric_lines": [
+        "也许我会比较好一点"
+      ]
+    },
+    {
+      "shot_id": "S09",
+      "start": 29.2,
+      "end": 34.9,
+      "scene": "playground_overpass_sunset",
+      "shot_scale": "medium",
+      "mood": "golden_sunset",
+      "narrative": "“从前从前 有个人爱你很久”——橘金晚霞铺满天桥护栏与操场远景，少年静静注视着站在光里的少女",
+      "camera": {
+        "pan_x_start": -18,
+        "pan_x_end": 6,
+        "pan_y_start": 0,
+        "pan_y_end": -4,
+        "sprite_scale": 1.18
+      },
+      "environment": {
+        "wind": 0.5,
+        "rain": 0.0,
+        "sunbeams": 0.85,
+        "leaves": 0.35,
+        "curtain": 0.0,
+        "lamp": 0.15,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.32,
+        "y_start": 0.84,
+        "x_end": 0.38,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "lean_rail_gaze",
+        "expression": "warm_wistful",
+        "prop": "bag",
+        "hand_target": "rail"
+      },
+      "girl": {
+        "x_start": 0.58,
+        "y_start": 0.84,
+        "x_end": 0.55,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "sunset_wind_hair",
+        "expression": "soft_smile",
+        "prop": "none",
+        "hand_target": "rail"
+      },
+      "start_frame": 876,
+      "end_frame": 1047,
+      "duration_sec": 5.7,
+      "lyric_lines": [
+        "从前从前",
+        "有个人爱你很久",
+        "但偏偏 风渐渐"
+      ]
+    },
+    {
+      "shot_id": "S10",
+      "start": 34.9,
+      "end": 42.6,
+      "scene": "playground_overpass_sunset",
+      "shot_scale": "medium_wide",
+      "mood": "dusk_wind_drift",
+      "narrative": "“但偏偏 风渐渐 把距离吹得好远”——晚风吹散余晖，两人沿着天桥长廊各自转身，步伐渐行渐远",
+      "camera": {
+        "pan_x_start": 6,
+        "pan_x_end": 24,
+        "pan_y_start": -4,
+        "pan_y_end": 0,
+        "sprite_scale": 1.04
+      },
+      "environment": {
+        "wind": 0.95,
+        "rain": 0.08,
+        "sunbeams": 0.45,
+        "leaves": 0.9,
+        "curtain": 0.0,
+        "lamp": 0.45,
+        "puddles": 0.0
+      },
+      "boy": {
+        "x_start": 0.39,
+        "y_start": 0.84,
+        "x_end": 0.22,
+        "y_end": 0.84,
+        "facing": "left",
+        "pose": "walk_look_back",
+        "expression": "sad",
+        "prop": "bag",
+        "hand_target": "swing"
+      },
+      "girl": {
+        "x_start": 0.56,
+        "y_start": 0.84,
+        "x_end": 0.77,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "walk_away_wind",
+        "expression": "look_down",
+        "prop": "folded_umbrella",
+        "hand_target": "hold_hair"
+      },
+      "start_frame": 1047,
+      "end_frame": 1278,
+      "duration_sec": 7.7,
+      "lyric_lines": [
+        "但偏偏 风渐渐",
+        "把距离吹得好远"
+      ]
+    },
+    {
+      "shot_id": "S11",
+      "start": 42.6,
+      "end": 49.5,
+      "scene": "streetlamp_rain_corner",
+      "shot_scale": "medium",
+      "mood": "evening_lamp_rain",
+      "narrative": "“好不容易 又能再多爱一天”——暖黄路灯光晕洒在夜雨街头，两人最后一次共撑一伞依偎停留",
+      "camera": {
+        "pan_x_start": -8,
+        "pan_x_end": 6,
+        "pan_y_start": -2,
+        "pan_y_end": -6,
+        "sprite_scale": 1.28
+      },
+      "environment": {
+        "wind": 0.4,
+        "rain": 0.72,
+        "sunbeams": 0.0,
+        "leaves": 0.0,
+        "curtain": 0.0,
+        "lamp": 1.0,
+        "puddles": 0.9
+      },
+      "boy": {
+        "x_start": 0.42,
+        "y_start": 0.85,
+        "x_end": 0.44,
+        "y_end": 0.85,
+        "facing": "right",
+        "pose": "hold_umbrella_close",
+        "expression": "warm_wistful",
+        "prop": "shared_umbrella",
+        "hand_target": "hold_shared_umbrella"
+      },
+      "girl": {
+        "x_start": 0.55,
+        "y_start": 0.85,
+        "x_end": 0.54,
+        "y_end": 0.85,
+        "facing": "left",
+        "pose": "lean_close_under_umbrella",
+        "expression": "wistful_smile",
+        "prop": "none",
+        "hand_target": "hold_sleeve"
+      },
+      "start_frame": 1278,
+      "end_frame": 1485,
+      "duration_sec": 6.9,
+      "lyric_lines": [
+        "好不容易",
+        "又能再多爱一天"
+      ]
+    },
+    {
+      "shot_id": "S12",
+      "start": 49.5,
+      "end": 60.0,
+      "scene": "streetlamp_rain_corner",
+      "shot_scale": "medium_wide",
+      "mood": "farewell_night_rain",
+      "narrative": "“但故事的最后你 好像还是说了 拜拜”——少女轻轻挥手转身没入夜雨巷口，少年独留暖灯下回望",
+      "camera": {
+        "pan_x_start": 6,
+        "pan_x_end": 22,
+        "pan_y_start": -4,
+        "pan_y_end": 0,
+        "sprite_scale": 1.05
+      },
+      "environment": {
+        "wind": 0.55,
+        "rain": 0.82,
+        "sunbeams": 0.0,
+        "leaves": 0.0,
+        "curtain": 0.0,
+        "lamp": 1.0,
+        "puddles": 1.0
+      },
+      "boy": {
+        "x_start": 0.42,
+        "y_start": 0.84,
+        "x_end": 0.35,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "stand_watch_fade",
+        "expression": "sad",
+        "prop": "bag",
+        "hand_target": "release_hand"
+      },
+      "girl": {
+        "x_start": 0.56,
+        "y_start": 0.84,
+        "x_end": 0.82,
+        "y_end": 0.84,
+        "facing": "right",
+        "pose": "wave_then_walk_away",
+        "expression": "sad_smile",
+        "prop": "open_umbrella",
+        "hand_target": "wave_bye"
+      },
+      "start_frame": 1485,
+      "end_frame": 1800,
+      "duration_sec": 10.5,
+      "lyric_lines": [
+        "但故事的最后你",
+        "好像还是说了 拜拜"
+      ]
+    }
+  ],
+  "lyrics": [
+    {
+      "id": 0,
+      "text": "刮风这天",
+      "start": 1.0,
+      "end": 3.38,
+      "start_frame": 30,
+      "end_frame": 101,
+      "chars": [
+        {
+          "char": "刮",
+          "start": 1.0,
+          "end": 1.96,
+          "start_frame": 30,
+          "end_frame": 59
+        },
+        {
+          "char": "风",
+          "start": 1.96,
+          "end": 2.4,
+          "start_frame": 59,
+          "end_frame": 72
+        },
+        {
+          "char": "这",
+          "start": 2.4,
+          "end": 2.8,
+          "start_frame": 72,
+          "end_frame": 84
+        },
+        {
+          "char": "天",
+          "start": 2.8,
+          "end": 3.38,
+          "start_frame": 84,
+          "end_frame": 101
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "我试过握着你手",
+      "start": 3.38,
+      "end": 6.76,
+      "start_frame": 101,
+      "end_frame": 203,
+      "chars": [
+        {
+          "char": "我",
+          "start": 3.38,
+          "end": 4.02,
+          "start_frame": 101,
+          "end_frame": 121
+        },
+        {
+          "char": "试",
+          "start": 4.02,
+          "end": 4.6,
+          "start_frame": 121,
+          "end_frame": 138
+        },
+        {
+          "char": "过",
+          "start": 4.6,
+          "end": 5.02,
+          "start_frame": 138,
+          "end_frame": 151
+        },
+        {
+          "char": "握",
+          "start": 5.02,
+          "end": 5.48,
+          "start_frame": 151,
+          "end_frame": 164
+        },
+        {
+          "char": "着",
+          "start": 5.48,
+          "end": 5.92,
+          "start_frame": 164,
+          "end_frame": 178
+        },
+        {
+          "char": "你",
+          "start": 5.92,
+          "end": 6.4,
+          "start_frame": 178,
+          "end_frame": 192
+        },
+        {
+          "char": "手",
+          "start": 6.4,
+          "end": 6.76,
+          "start_frame": 192,
+          "end_frame": 203
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "但偏偏 雨渐渐",
+      "start": 6.76,
+      "end": 10.56,
+      "start_frame": 203,
+      "end_frame": 317,
+      "chars": [
+        {
+          "char": "但",
+          "start": 6.76,
+          "end": 7.58,
+          "start_frame": 203,
+          "end_frame": 227
+        },
+        {
+          "char": "偏",
+          "start": 7.58,
+          "end": 8.02,
+          "start_frame": 227,
+          "end_frame": 241
+        },
+        {
+          "char": "偏",
+          "start": 8.02,
+          "end": 8.58,
+          "start_frame": 241,
+          "end_frame": 257
+        },
+        {
+          "char": " ",
+          "start": 8.58,
+          "end": 8.62,
+          "start_frame": 257,
+          "end_frame": 259
+        },
+        {
+          "char": "雨",
+          "start": 8.62,
+          "end": 9.48,
+          "start_frame": 259,
+          "end_frame": 284
+        },
+        {
+          "char": "渐",
+          "start": 9.48,
+          "end": 9.86,
+          "start_frame": 284,
+          "end_frame": 296
+        },
+        {
+          "char": "渐",
+          "start": 9.86,
+          "end": 10.56,
+          "start_frame": 296,
+          "end_frame": 317
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "大到我看你不见",
+      "start": 10.56,
+      "end": 14.05,
+      "start_frame": 317,
+      "end_frame": 422,
+      "chars": [
+        {
+          "char": "大",
+          "start": 10.56,
+          "end": 11.24,
+          "start_frame": 317,
+          "end_frame": 337
+        },
+        {
+          "char": "到",
+          "start": 11.24,
+          "end": 11.56,
+          "start_frame": 337,
+          "end_frame": 347
+        },
+        {
+          "char": "我",
+          "start": 11.56,
+          "end": 11.98,
+          "start_frame": 347,
+          "end_frame": 359
+        },
+        {
+          "char": "看",
+          "start": 11.98,
+          "end": 12.46,
+          "start_frame": 359,
+          "end_frame": 374
+        },
+        {
+          "char": "你",
+          "start": 12.46,
+          "end": 12.94,
+          "start_frame": 374,
+          "end_frame": 388
+        },
+        {
+          "char": "不",
+          "start": 12.94,
+          "end": 13.46,
+          "start_frame": 388,
+          "end_frame": 404
+        },
+        {
+          "char": "见",
+          "start": 13.46,
+          "end": 14.05,
+          "start_frame": 404,
+          "end_frame": 422
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "还要多久",
+      "start": 15.06,
+      "end": 17.28,
+      "start_frame": 452,
+      "end_frame": 518,
+      "chars": [
+        {
+          "char": "还",
+          "start": 15.06,
+          "end": 16.02,
+          "start_frame": 452,
+          "end_frame": 481
+        },
+        {
+          "char": "要",
+          "start": 16.02,
+          "end": 16.44,
+          "start_frame": 481,
+          "end_frame": 493
+        },
+        {
+          "char": "多",
+          "start": 16.44,
+          "end": 16.9,
+          "start_frame": 493,
+          "end_frame": 507
+        },
+        {
+          "char": "久",
+          "start": 16.9,
+          "end": 17.28,
+          "start_frame": 507,
+          "end_frame": 518
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "我才能在你身边",
+      "start": 17.28,
+      "end": 21.56,
+      "start_frame": 518,
+      "end_frame": 647,
+      "chars": [
+        {
+          "char": "我",
+          "start": 17.28,
+          "end": 18.14,
+          "start_frame": 518,
+          "end_frame": 544
+        },
+        {
+          "char": "才",
+          "start": 18.14,
+          "end": 18.6,
+          "start_frame": 544,
+          "end_frame": 558
+        },
+        {
+          "char": "能",
+          "start": 18.6,
+          "end": 19.02,
+          "start_frame": 558,
+          "end_frame": 571
+        },
+        {
+          "char": "在",
+          "start": 19.02,
+          "end": 19.54,
+          "start_frame": 571,
+          "end_frame": 586
+        },
+        {
+          "char": "你",
+          "start": 19.54,
+          "end": 19.86,
+          "start_frame": 586,
+          "end_frame": 596
+        },
+        {
+          "char": "身",
+          "start": 19.86,
+          "end": 20.34,
+          "start_frame": 596,
+          "end_frame": 610
+        },
+        {
+          "char": "边",
+          "start": 20.34,
+          "end": 21.56,
+          "start_frame": 610,
+          "end_frame": 647
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "等到放晴的那天",
+      "start": 21.56,
+      "end": 25.16,
+      "start_frame": 647,
+      "end_frame": 755,
+      "chars": [
+        {
+          "char": "等",
+          "start": 21.56,
+          "end": 22.5,
+          "start_frame": 647,
+          "end_frame": 675
+        },
+        {
+          "char": "到",
+          "start": 22.5,
+          "end": 22.98,
+          "start_frame": 675,
+          "end_frame": 689
+        },
+        {
+          "char": "放",
+          "start": 22.98,
+          "end": 23.48,
+          "start_frame": 689,
+          "end_frame": 704
+        },
+        {
+          "char": "晴",
+          "start": 23.48,
+          "end": 23.8,
+          "start_frame": 704,
+          "end_frame": 714
+        },
+        {
+          "char": "的",
+          "start": 23.8,
+          "end": 24.32,
+          "start_frame": 714,
+          "end_frame": 730
+        },
+        {
+          "char": "那",
+          "start": 24.32,
+          "end": 24.72,
+          "start_frame": 730,
+          "end_frame": 742
+        },
+        {
+          "char": "天",
+          "start": 24.72,
+          "end": 25.16,
+          "start_frame": 742,
+          "end_frame": 755
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "也许我会比较好一点",
+      "start": 25.16,
+      "end": 28.94,
+      "start_frame": 755,
+      "end_frame": 868,
+      "chars": [
+        {
+          "char": "也",
+          "start": 25.16,
+          "end": 25.62,
+          "start_frame": 755,
+          "end_frame": 769
+        },
+        {
+          "char": "许",
+          "start": 25.62,
+          "end": 25.96,
+          "start_frame": 769,
+          "end_frame": 779
+        },
+        {
+          "char": "我",
+          "start": 25.96,
+          "end": 26.44,
+          "start_frame": 779,
+          "end_frame": 793
+        },
+        {
+          "char": "会",
+          "start": 26.44,
+          "end": 26.86,
+          "start_frame": 793,
+          "end_frame": 806
+        },
+        {
+          "char": "比",
+          "start": 26.86,
+          "end": 27.22,
+          "start_frame": 806,
+          "end_frame": 817
+        },
+        {
+          "char": "较",
+          "start": 27.22,
+          "end": 27.74,
+          "start_frame": 817,
+          "end_frame": 832
+        },
+        {
+          "char": "好",
+          "start": 27.74,
+          "end": 28.36,
+          "start_frame": 832,
+          "end_frame": 851
+        },
+        {
+          "char": "一",
+          "start": 28.36,
+          "end": 28.65,
+          "start_frame": 851,
+          "end_frame": 860
+        },
+        {
+          "char": "点",
+          "start": 28.65,
+          "end": 28.94,
+          "start_frame": 860,
+          "end_frame": 868
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "从前从前",
+      "start": 29.48,
+      "end": 31.3,
+      "start_frame": 884,
+      "end_frame": 939,
+      "chars": [
+        {
+          "char": "从",
+          "start": 29.48,
+          "end": 29.96,
+          "start_frame": 884,
+          "end_frame": 899
+        },
+        {
+          "char": "前",
+          "start": 29.96,
+          "end": 30.32,
+          "start_frame": 899,
+          "end_frame": 910
+        },
+        {
+          "char": "从",
+          "start": 30.32,
+          "end": 30.86,
+          "start_frame": 910,
+          "end_frame": 926
+        },
+        {
+          "char": "前",
+          "start": 30.86,
+          "end": 31.3,
+          "start_frame": 926,
+          "end_frame": 939
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "有个人爱你很久",
+      "start": 31.3,
+      "end": 34.78,
+      "start_frame": 939,
+      "end_frame": 1043,
+      "chars": [
+        {
+          "char": "有",
+          "start": 31.3,
+          "end": 32.18,
+          "start_frame": 939,
+          "end_frame": 965
+        },
+        {
+          "char": "个",
+          "start": 32.18,
+          "end": 32.56,
+          "start_frame": 965,
+          "end_frame": 977
+        },
+        {
+          "char": "人",
+          "start": 32.56,
+          "end": 33.02,
+          "start_frame": 977,
+          "end_frame": 991
+        },
+        {
+          "char": "爱",
+          "start": 33.02,
+          "end": 33.6,
+          "start_frame": 991,
+          "end_frame": 1008
+        },
+        {
+          "char": "你",
+          "start": 33.6,
+          "end": 33.9,
+          "start_frame": 1008,
+          "end_frame": 1017
+        },
+        {
+          "char": "很",
+          "start": 33.9,
+          "end": 34.34,
+          "start_frame": 1017,
+          "end_frame": 1030
+        },
+        {
+          "char": "久",
+          "start": 34.34,
+          "end": 34.78,
+          "start_frame": 1030,
+          "end_frame": 1043
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "但偏偏 风渐渐",
+      "start": 34.78,
+      "end": 38.2,
+      "start_frame": 1043,
+      "end_frame": 1146,
+      "chars": [
+        {
+          "char": "但",
+          "start": 34.78,
+          "end": 35.64,
+          "start_frame": 1043,
+          "end_frame": 1069
+        },
+        {
+          "char": "偏",
+          "start": 35.64,
+          "end": 36.1,
+          "start_frame": 1069,
+          "end_frame": 1083
+        },
+        {
+          "char": "偏",
+          "start": 36.1,
+          "end": 36.5,
+          "start_frame": 1083,
+          "end_frame": 1095
+        },
+        {
+          "char": " ",
+          "start": 36.5,
+          "end": 37.1,
+          "start_frame": 1095,
+          "end_frame": 1113
+        },
+        {
+          "char": "风",
+          "start": 37.1,
+          "end": 37.42,
+          "start_frame": 1113,
+          "end_frame": 1123
+        },
+        {
+          "char": "渐",
+          "start": 37.42,
+          "end": 37.8,
+          "start_frame": 1123,
+          "end_frame": 1134
+        },
+        {
+          "char": "渐",
+          "start": 37.8,
+          "end": 38.2,
+          "start_frame": 1134,
+          "end_frame": 1146
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "把距离吹得好远",
+      "start": 38.72,
+      "end": 42.04,
+      "start_frame": 1162,
+      "end_frame": 1261,
+      "chars": [
+        {
+          "char": "把",
+          "start": 38.72,
+          "end": 39.18,
+          "start_frame": 1162,
+          "end_frame": 1175
+        },
+        {
+          "char": "距",
+          "start": 39.18,
+          "end": 39.6,
+          "start_frame": 1175,
+          "end_frame": 1188
+        },
+        {
+          "char": "离",
+          "start": 39.6,
+          "end": 39.88,
+          "start_frame": 1188,
+          "end_frame": 1196
+        },
+        {
+          "char": "吹",
+          "start": 39.88,
+          "end": 40.38,
+          "start_frame": 1196,
+          "end_frame": 1211
+        },
+        {
+          "char": "得",
+          "start": 40.38,
+          "end": 40.84,
+          "start_frame": 1211,
+          "end_frame": 1225
+        },
+        {
+          "char": "好",
+          "start": 40.84,
+          "end": 41.38,
+          "start_frame": 1225,
+          "end_frame": 1241
+        },
+        {
+          "char": "远",
+          "start": 41.38,
+          "end": 42.04,
+          "start_frame": 1241,
+          "end_frame": 1261
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "好不容易",
+      "start": 43.08,
+      "end": 45.2,
+      "start_frame": 1292,
+      "end_frame": 1356,
+      "chars": [
+        {
+          "char": "好",
+          "start": 43.08,
+          "end": 44.0,
+          "start_frame": 1292,
+          "end_frame": 1320
+        },
+        {
+          "char": "不",
+          "start": 44.0,
+          "end": 44.38,
+          "start_frame": 1320,
+          "end_frame": 1331
+        },
+        {
+          "char": "容",
+          "start": 44.38,
+          "end": 44.78,
+          "start_frame": 1331,
+          "end_frame": 1343
+        },
+        {
+          "char": "易",
+          "start": 44.78,
+          "end": 45.2,
+          "start_frame": 1343,
+          "end_frame": 1356
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "又能再多爱一天",
+      "start": 45.86,
+      "end": 48.9,
+      "start_frame": 1376,
+      "end_frame": 1467,
+      "chars": [
+        {
+          "char": "又",
+          "start": 45.86,
+          "end": 46.16,
+          "start_frame": 1376,
+          "end_frame": 1385
+        },
+        {
+          "char": "能",
+          "start": 46.16,
+          "end": 46.54,
+          "start_frame": 1385,
+          "end_frame": 1396
+        },
+        {
+          "char": "再",
+          "start": 46.54,
+          "end": 47.0,
+          "start_frame": 1396,
+          "end_frame": 1410
+        },
+        {
+          "char": "多",
+          "start": 47.0,
+          "end": 47.52,
+          "start_frame": 1410,
+          "end_frame": 1426
+        },
+        {
+          "char": "爱",
+          "start": 47.52,
+          "end": 48.02,
+          "start_frame": 1426,
+          "end_frame": 1441
+        },
+        {
+          "char": "一",
+          "start": 48.02,
+          "end": 48.46,
+          "start_frame": 1441,
+          "end_frame": 1454
+        },
+        {
+          "char": "天",
+          "start": 48.46,
+          "end": 48.9,
+          "start_frame": 1454,
+          "end_frame": 1467
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "但故事的最后你",
+      "start": 50.08,
+      "end": 53.2,
+      "start_frame": 1502,
+      "end_frame": 1596,
+      "chars": [
+        {
+          "char": "但",
+          "start": 50.08,
+          "end": 50.54,
+          "start_frame": 1502,
+          "end_frame": 1516
+        },
+        {
+          "char": "故",
+          "start": 50.54,
+          "end": 50.88,
+          "start_frame": 1516,
+          "end_frame": 1526
+        },
+        {
+          "char": "事",
+          "start": 50.88,
+          "end": 51.22,
+          "start_frame": 1526,
+          "end_frame": 1537
+        },
+        {
+          "char": "的",
+          "start": 51.22,
+          "end": 51.84,
+          "start_frame": 1537,
+          "end_frame": 1555
+        },
+        {
+          "char": "最",
+          "start": 51.84,
+          "end": 52.26,
+          "start_frame": 1555,
+          "end_frame": 1568
+        },
+        {
+          "char": "后",
+          "start": 52.26,
+          "end": 52.68,
+          "start_frame": 1568,
+          "end_frame": 1580
+        },
+        {
+          "char": "你",
+          "start": 52.68,
+          "end": 53.2,
+          "start_frame": 1580,
+          "end_frame": 1596
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "好像还是说了 拜拜",
+      "start": 53.2,
+      "end": 58.6,
+      "start_frame": 1596,
+      "end_frame": 1758,
+      "chars": [
+        {
+          "char": "好",
+          "start": 53.2,
+          "end": 53.6,
+          "start_frame": 1596,
+          "end_frame": 1608
+        },
+        {
+          "char": "像",
+          "start": 53.6,
+          "end": 54.0,
+          "start_frame": 1608,
+          "end_frame": 1620
+        },
+        {
+          "char": "还",
+          "start": 54.0,
+          "end": 54.36,
+          "start_frame": 1620,
+          "end_frame": 1631
+        },
+        {
+          "char": "是",
+          "start": 54.36,
+          "end": 54.72,
+          "start_frame": 1631,
+          "end_frame": 1642
+        },
+        {
+          "char": "说",
+          "start": 54.72,
+          "end": 55.38,
+          "start_frame": 1642,
+          "end_frame": 1661
+        },
+        {
+          "char": "了",
+          "start": 55.38,
+          "end": 56.0,
+          "start_frame": 1661,
+          "end_frame": 1680
+        },
+        {
+          "char": " ",
+          "start": 56.0,
+          "end": 56.75,
+          "start_frame": 1680,
+          "end_frame": 1702
+        },
+        {
+          "char": "拜",
+          "start": 56.75,
+          "end": 57.35,
+          "start_frame": 1702,
+          "end_frame": 1720
+        },
+        {
+          "char": "拜",
+          "start": 57.35,
+          "end": 58.6,
+          "start_frame": 1720,
+          "end_frame": 1758
+        }
+      ]
+    }
+  ]
+}
