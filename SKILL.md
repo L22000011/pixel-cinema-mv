@@ -30,9 +30,10 @@ Create cinematic, HUD-free 16-bit/32-bit indie pixel-art narrative music videos 
    - Because `camAt()` snaps to integer logical pixels (`Math.round`), never leave a slow scene camera static or stalled at a sine extremum for `> 1.0s`.
    - Combine steady linear camera drift (`>= 0.8 px/s`) with continuous ambient motion (window rain streaks, swaying curtains, lamp dust motes, drifting leaves/snow) so `film_gate.py` clears `dead_gap <= 1.0s` and `moving_share >= 0.90`.
 
-5. **Standardized Naming & BT.709 Delivery**
+5. **Standardized Naming, Clean `output/` (MP4-Only), & BT.709 Delivery**
    - Tag final H.264 MP4 with `-color_primaries bt709 -color_trc bt709 -colorspace bt709`.
-   - Deliver final video named **`<歌曲名字>-<时长>s.mp4`** (e.g., `我落泪情绪零碎-96s.mp4`) alongside `.srt`, `.lrc`, `_contact_sheet.png`, and `_qa_report.json`.
+   - Deliver final video named **`<歌曲名字>-<时长>s.mp4`** (e.g., `TAKE_ME-90s.mp4`, `我落泪情绪零碎-96s.mp4`) **directly inside `/Users/eagle/Desktop/Video/output/`** — keep `/Users/eagle/Desktop/Video/output/` strictly **`.mp4` files only** so the user can open/preview finished videos immediately.
+   - Place all companion non-MP4 outputs (`.srt`, `.lrc`, `_contact_sheet.png`, `_qa_report.json`, `_timeline.json`) inside `/Users/eagle/Desktop/Video/workspace_assets/output_extras/` instead of cluttering `output/`.
 
 ---
 
